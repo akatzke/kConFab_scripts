@@ -85,7 +85,7 @@ def main():
     path_dir = pathlib.Path(args.dir)
     if not path_dir.exists():
         raise ValueError("Directory path does not exist.")
-    run_get_exon_coverag_kConFab(path_bed, path_dir, pattern)
+    run_get_exon_coverag_kConFab(path_bed, path_dir, args.pattern)
 
 
 if __name__ == "__main__":
