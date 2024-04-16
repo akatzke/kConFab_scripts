@@ -5,7 +5,8 @@ Contains python command line script to compute exon coverage per exon.
 Example bed files for both BRCA1 and BRCA2 are included.
 The position of the first and last exon are corrected for the primers that are in use by us (Lab Hanover and Cologne).
 
-The script will automatically find all files matching the pattern in the directory and quantify the coverage of each exon defined in the bed file for each of the files.
+The script will automatically find all files matching the pattern (-p) in the directory (-d) and quantify the coverage of each exon defined in the bed file for each of the files.
+For further documentation on definition of the pattern see the documentation for [rglob](https://docs.python.org/3/library/pathlib.html).
 
 Dependencies:
 - Samtools
