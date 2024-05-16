@@ -84,7 +84,7 @@ else
 		echo $SAMPLES
 		exit 1
 	fi
-	python /home/flair/flair/flair.py quantify -r $SAMPLES -i $OUTPUT_COL -o $OUTPUT_QUA --salmon /home/mh-hannover.local/katzkean/miniconda3/envs/flair_env/bin/salmon
+	python /home/flair/flair/flair.py quantify -r $SAMPLES -i $OUTPUT_COL -o $OUTPUT_QUA
 fi
 
 ## Start diffSplice
